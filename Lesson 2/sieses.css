@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    background-color: aqua;
+}
+
+p{
+    background-color: rgb(222,184,135);
+    width: 140px;
+    text-align: justify;
+}
+
+
+div{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    width: 140px;
+    height: 220px;
+    background-image: url(https://images.unsplash.com/photo-1562690868-60bbe7293e94?q=80&w=1436&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: 100px 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
