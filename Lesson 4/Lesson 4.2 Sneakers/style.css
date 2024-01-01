@@ -1,0 +1,108 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+.nav
+{
+    background-color: white;
+    height: 6vw;
+    padding-top: 2vw;
+    box-shadow: 0 0 0.2vw;
+}
+
+
+
+.nav a:first-of-type{
+    padding-left: 26vw;
+    font-size: 1.5vw;
+}
+
+.nav a
+{
+    text-align: center;
+    font-size: 1.5vw;
+    padding-left: 4vw;
+    font-weight: 550;
+
+}
+
+.cards{
+    padding-left: 30vw;
+    padding-right: 5vw;
+    padding-top: 10vh;
+}
+.card {
+    background-color: white;
+    width: 20vw;
+    height: 25vw;
+    display: inline-block;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    margin-top: 1vw;
+    margin-right: 0.5%;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 0 0.2vw;
+    vertical-align: top;
+}
+.card img{
+    width: 18vw;
+    border-radius: 5%;
+}
+.card img:hover{
+    width: 18.5vw;
+    cursor: pointer;
+    margin-left: -0.25vw;
+}
+
+.card h1 {
+    font-size: 1.5vw;
+    position: absolute;
+    left: 8%;
+    top: 60%;
+}
+
+.card h2 {
+    font-size: 1.5vw;
+    position: absolute;
+    right: 8%;
+    top: 60%;
+}
+
+.card h3 {
+    font-size: 1vw;
+    position: absolute;
+    left: 8%;
+    top: 68%;
+    color: gray;
+}
+.card h4 {
+    font-size: 1.5vw;
+    position: absolute;
+    left: 8%;
+    top: 80%;
+    color: grey;
+}
+
+.allmain{
+    position: relative;
+}
+.filters{
+    position: absolute;
+    left: 5vw;
+    top: 8vw;
+    border: 0px transparent solid;
+    padding: 4vw;
+    position: fixed;
+}
+.filter{
+    font-size: 1vw;
+    color: rgb(50, 50, 50);
+}
+
+.filter:hover {
+    cursor: pointer;
+}
