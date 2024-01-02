@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.head{
+    background-color: rgb(255, 196, 0);
+    height: 27.5vw;
+    width: 21.5vw;
+    border-radius: 47%;
+    margin: 8vw auto;
+    border: 3px solid black;
+    position: relative;
+}
+
+.eye{
+    background-color: white;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    border: 3px solid black;
+    z-index: 5;
+}
+
+#eye1{
+    left: 1vw;
+    top: 6vw;
+}
+#eye2{
+    right: 1vw;
+    top: 6vw;
+}
+
+
+
+
+
+
+
+
+.eyedot{
+    background-color: black;
+    position: absolute;
+    width: 1.7vw;
+    height: 1.7vw;
+    border-radius: 50%;
+    border: 3px solid black;
+    z-index: 10;
+}
+
+#eyedot1{
+    left: 6.3vw;
+    top: 9vw;
+}
+#eyedot2{
+    right: 2.1vw;
+    top: 9vw;
+}
+
+
+
+
+
+
+
+
+.glass{
+    background-color: saddlebrown;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    border: 3px solid black;
+    z-index: 3;
+}
+
+#glass1{
+    left: 0vw;
+    top: 5vw;
+}
+#glass2{
+    right: 0vw;
+    top: 5vw;
+}
+
+.bridge{
+    background-color: saddlebrown;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    width: 1.6vw;
+    height: 1.4vw;
+    position: absolute;
+    left: 9.8vw;
+    top: 8.8vw;
+    z-index: 4;
+}
+
+
+
+
+
+
+
+.ear{
+    background-color: rgb(255, 196, 0);
+    position: absolute;
+    width: 8vw;
+    height: 12vw;
+    border-radius: 48%;
+    border: 3px solid black;
+    z-index: -1;
+    top: -8vw;
+}
+
+#ear1{
+    left: 0vw;
+    rotate: -30deg;
+}
+#ear2{
+    right: 0vw;
+    rotate: 30deg;
+}
+
+
+
+
+.earinside{
+    background-color: pink;
+    position: absolute;
+    width: 4vw;
+    height: 10vw;
+    border-radius: 48%;
+    border: 3px solid black;
+    z-index: -1;
+    top: -6vw;
+}
+
+#earinside1{
+    left: 2.5vw;
+    rotate: -30deg;
+}
+#earinside2{
+    right: 2.3vw;
+    rotate: 30deg;
+}
+
+
+
+
+.mouth{
+    background-color: red;
+    border: 3px solid black;
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    left: 6vw;
+    top: 17vw;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+
+.mouthcut{
+    background-color: rgb(255, 196, 0);
+    width: 12vw;
+    height: 9vw;
+    position: absolute;
+    left: 6vw;
+    top: 14.3vw;
+    z-index: 555;
+    border-radius: 50%;
+}
+
+
+.tongue{
+    background-color: pink;
+    width: 4vw;
+    height: 2vw;
+    position: absolute;
+    left: 6.5vw;
+    top: 22.5vw;
+    z-index: 44;
+    border: black solid 3px;
+    border-bottom-left-radius: 85%;
+    border-bottom-right-radius: 85%;
+    border-top-right-radius: 90%;
+    border-top-left-radius: 90%;
+    rotate: 23deg;
+}
+
+
+.nose{
+    background-color: black;
+    position: absolute;
+    width: 0.3vw;
+    height: 0.8vw;
+    border-radius: 35%;
+    z-index: 800;
+    top: 20.2vw;
+}
+
+#nose1{
+    left: 9vw;
+    rotate: -60deg;
+}
+#nose2{
+    right: 9vw;
+    rotate: 60deg;
+}
+
+
+.eyebrow{
+    background-color: black;
+    position: absolute;
+    width: 0.2vw;
+    height: 2.5vw;
+    border-radius: 48%;
+    border: 3px solid black;
+    z-index: 8;
+    top: 3vw;
+}
+
+#eyebrow1{
+    left: 6vw;
+    rotate: 75deg;
+}
+#eyebrow2{
+    right: 5vw;
+    rotate: -75deg;
+}
