@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma;
+}
+
+.header{
+    display: flex;
+    width: 100vw;
+    height: 10vw;
+    background-color: purple;
+    justify-content: center;
+    align-items: center;
+}
+
+.headertext h1{
+    color: white;
+    font-size: 3vw;
+}
+
+
+
+
+
+.panels{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 30vw;
+}
+
+.panel{
+    background-color: rgb(29, 167, 144);
+    width: 30%;
+    height: 100%;
+    padding: 2vw;
+}
+
+
+.panel p{
+    margin-top: 2vw;
+}
