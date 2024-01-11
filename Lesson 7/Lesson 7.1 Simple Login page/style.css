@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: tahoma;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/realistic-white-golden-geometric-background_79603-2032.jpg);
+    background-size: cover;
+}
+.allcontents{
+    margin: 2vw auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 5vw;
+    
+}
+
+.image{
+
+    width: 30vw;
+    height: 30vw;
+    padding-top: 2vw;
+}
+.image img{
+    width: 25vw;
+    height: 25vw;
+
+
+}
+
+.signbox{
+    background-color: rgb(202, 219, 219);
+    width: 28vw;
+    height: 30vw;
+    padding: 1vw;
+    box-shadow: 0px 2px 0.5vw;
+}
+
+form input{
+ width: 25vw;
+ height: 3vw;
+ margin: 0.3vw 0.5vw;
+ font-size: 1.2vw;
+ border: 1px solid gray;
+ border-radius: 0.4vw;
+}
+
+form p {
+
+    font-size: 0.8vw;
+}
