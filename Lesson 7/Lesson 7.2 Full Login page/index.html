@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+
+    <!--ALL SECTIONS PAYMENT AREA-->
+    <section class="paymentarea">
+        <!--SECTION1-->
+        <section class="step" id="step1">
+            <h1> STEP 1 - YOUR DETAILS</h1>
+            <form>
+                <label for="nameinput">Name </label>
+                <input type="text" placeholder="First and last name" id="nameinput"> 
+            </form> 
+            <form> 
+                <label for="emailinput">Email </label>
+                <input type="email" placeholder="example@domaion.com" id="emailinput"> 
+            </form> 
+            <form> 
+                <label for="phoneinput">Phone </label>
+                <input type="number" placeholder="Eg: 0554551235" id="phoneinput"> 
+            </form> 
+        </section>
+
+
+
+        <!--SECTION2-->
+        <section class="step" id="step2">
+            <h1> STEP 2 - DELIVERY ADDRESS</h1>
+            <form id="adressformu">
+                <label for="Adress"> Adress</label>
+                <textarea id="Address" cols="21" rows="4" placeholder="Azadliq Pr. 115"></textarea>
+            </form> 
+            <form>
+                <label for="zipinput">Post Code </label>
+                <input type="text" placeholder="AZ1038" id="zipinput"> 
+            </form> 
+            <form>
+                <label for="countryinput">Country </label>
+                <input type="text" placeholder="Vatican" id="countryinput"> 
+            </form>
+        </section>
+
+
+        <!--SECTION3-->  
+        <h1> STEP 3 - CARD DETAILS</h1>  
+        <section class="step" id="step3">
+            <form>
+                <label for="radio" id="soldakilabel">VISA</label>
+                <label for="radio"><img src="https://cdn.iconscout.com/icon/free/png-256/free-visa-credit-debit-bank-transaction-card-32265.png" alt="visa" id="img1"></label>
+                <input type="radio" name="card" id="card1">
+                <label for="radio" id="sagdakilabel">Master</label>
+                <label for="radio"><img src="https://static-00.iconduck.com/assets.00/mastercard-icon-512x329-hbsn1dmr.png" alt="master" id="img2"></label> 
+                <input type="radio" name="card"id="card2">              
+            </form>
+            <form>
+                <label for="secode">Security Code</label>
+                <input type="text" id="secode"> 
+            </form>
+            <form>
+                <label for="nameoncard">Name on Card</label>
+                <input type="text" id="nameoncard" placeholder="Exact name on card"> 
+            </form>
+            <form>
+                <button type="submit" id="purchase">Purchase</button>
+            </form>
+            
+            
+            
+        </section>
+        
+    </section>
+    
+</body> 
+</html>

@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: tahoma;
+}
+
+.paymentarea{
+    width: 40vw;
+    background-color: darkcyan;
+    padding: 2vw;
+    border-radius: 1vw;
+    margin: 2vw auto;
+}
+
+form{
+    border: 0.1vw white solid;
+    box-shadow: 0 0 0.1vw white;
+    height: 4vw;
+    border-radius: 0.8vw;
+    position: relative;
+    background: linear-gradient(to right, rgb(0, 255, 64), rgb(0, 255, 234));
+    margin-top: 0.1vw;
+}
+
+form label {
+    position: absolute;
+    top: 1.4vw;
+    left: 3vw;
+}
+
+form input, form textarea, #purchase {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%,-30%);
+    border: white solid;
+    border-radius: 0.3vw;
+    scale: 1.2;
+}
+form textarea {
+    transform: translate(-30%, -40%);
+}
+
+#adressformu{
+    height: 8vw;  
+}
+
+/* RADIOLAR*/
+#step3 #img1{ 
+    width: 40px;
+    transform: translate(-12px, -10px);
+}
+
+#step3 #card1{ 
+    left: 5.65vw;
+}
+
+#step3 #img2{ 
+    width: 30px;
+    height: 17px;
+    transform: translate(192px, 1px);
+}
+
+#step3 #card2{ 
+    left: 20.3vw;
+}
+
+#soldakilabel {
+    position: absolute;
+    top: 1.4vw;
+    left: 7.3vw;
+}
+
+#sagdakilabel {
+    position: absolute;
+    top: 1.4vw;
+    left: 22vw;
+}
+
+#purchase{
+    scale: 1.5;
+    font-weight: bold;
+}
+#purchase:hover{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+h1{
+    font-size: 1.5vw;
+    margin-top: 0.6vw;
+    margin-bottom: 0.5vw;
+}
