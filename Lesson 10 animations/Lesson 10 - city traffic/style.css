@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+main img {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.car{
+    position: absolute;
+}
+.human{
+    position: absolute;
+}
+
+#car1{
+    left: -50vw;
+    top: 18vw;
+    z-index: 7;
+    animation: c1 20s linear infinite;
+}
+
+#car1 img{
+    width: 64vw;
+    height: 32vw;
+    z-index: 7;
+}
+
+@keyframes c1{
+    0% {left:-70vw;}
+    20% {left:-70vw;}
+    40% {left:100vw;}
+    100% {left: 100vw;}
+}
+
+#car2{
+    left: -20vw;
+    top: 22vw;
+    z-index: 6;
+    animation: c2 20s linear infinite;
+}
+
+#car2 img{
+    width: 45vw;
+    height: 14vw;
+    z-index: 6;
+}
+
+@keyframes c2{
+    0% {right:-50vw; transform: rotateY(180deg);}
+    25% {right:-50vw; transform: rotateY(180deg)}
+    35% {right:100vw; transform: rotateY(180deg)}
+    100% {right: 100vw; transform: rotateY(180deg)}
+}
+
+#car3{
+    left: 40vw;
+    top: 18vw;
+    z-index: 5;
+    animation: c3 20s infinite ease-in-out;
+
+}
+
+#car3 img{
+    width: 16vw;
+    height: 12vw;
+    z-index: 5;
+}
+
+
+
+
+@keyframes c3{
+    0% {top: 10vw; transform: scale(0.2);}
+    10% {top: 18vw; transform: scale(1); left: 38vw}
+    90% {top: 18vw; transform: scale(1); left:38vw ;}
+    100% {top: 60vw; transform: scale(2); left:25vw;}
+}
+
+
+
+#human1{
+    left: 92vw;
+    top: 28vw;
+    z-index: 15;
+    animation: hum1 20s infinite linear;
+}
+
+#human1 img{
+    width: 16vw;
+    height: 20vw;
+    z-index: 15;
+}
+
+    @keyframes hum1{
+        0% {left: 92vw;}
+        75% {left:-10vw;}
+        100% {left:-10vw;}
+    }
+
+
+.light{
+    position: absolute;
+    background-color: gray;
+    width: 1.9vw;
+    height: 1.7vw;
+    border-radius: 50%;
+    box-shadow: 0 0 0.2vw 0.2vw gray;
+
+}
+
+#light1{
+    left: 34.74vw;
+    top: 7.9vw;
+    animation: light1 20s linear infinite;
+}
+
+#light2{
+    left: 34.74vw;
+    top: 5.68vw;
+    animation: light2 20s linear infinite;
+
+}
+
+#light3{
+    left: 34.74vw;
+    top: 3.5vw;
+    animation: light3 20s linear infinite;
+
+}
+
+#light4{
+    left: 63.6vw;
+    top: 8.15vw;
+    animation: light1 20s linear infinite;
+
+}
+
+#light5{
+    left: 63.5vw;
+    top: 5.85vw;
+    animation: light2 20s linear infinite;
+
+}
+
+#light6{
+    left: 63.4vw;
+    top: 3.65vw;
+    animation: light3 20s linear infinite;
+
+}
+
+@keyframes light1{
+    5%, 70%{background-color: greenyellow; box-shadow: 0 0 0.2vw 0.2vw greenyellow;}
+    0%, 75%{background-color: gray; box-shadow: 0 0 0.2vw 0.2vw gray;}
+}
+@keyframes light2{
+    0%, 77%, 81%,85%{background-color: yellow; box-shadow: 0 0 0.2vw 0.2vw yellow;}
+    2%, 75%, 79%, 83%,87%, 100%{background-color: gray; box-shadow: 0 0 0.2vw 0.2vw gray;}
+}
+@keyframes light3{
+    88%, 100%{background-color: red; box-shadow: 0 0 0.2vw 0.2vw red;}
+    0%, 87%{background-color: gray; box-shadow: 0 0 0.2vw 0.2vw gray;}
+}
