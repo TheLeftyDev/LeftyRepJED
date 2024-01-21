@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-size: cover;
+    background-image: url(./SKY.jpg);
+    overflow: hidden;
+}
+
+#sun{
+    width: 15vw;
+    height: 15vw;
+    background: radial-gradient(yellow,orange);
+    border-radius: 50%;
+    position: absolute;
+    top: 35vh;
+    left: 42.5vw;
+    animation: sunrotate 20s infinite linear;
+    box-shadow: 0 0 3vw 0.01vw yellow;
+    border: 2px black solid;
+
+}
+
+#earth{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 30vw;
+    left: 5vw;
+    animation: earthrotate 2s infinite linear;
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#earth img{
+    width: 5.5vw;
+    height: 5.5vw;
+    animation: earthrotate2 2s infinite linear;
+    border-radius: 50%;
+
+    
+
+    
+}
+#moon{
+    width: 1vw;
+    height: 1vw;
+    background-color: gray;
+    border-radius: 50%;
+    position: absolute;
+    top:8vw;
+    border: black solid 1px;
+}
+
+@keyframes sunrotate{
+    0%{rotate: 0deg;}
+    100%{rotate: 360deg;}
+
+}
+@keyframes earthrotate{
+    0%{rotate: 0deg;}
+    100%{rotate: 360deg;}
+
+}
+@keyframes earthrotate2{
+    100%{rotate: 0deg;}
+    0%{rotate: 360deg;}
+
+}
+
+
+.saturn img{
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 32vh;
+    left: 40vw;
+    z-index: -5;
+    animation: saturn 10s ease-in-out infinite ;
+}
+
+@keyframes saturn{
+    0%{left: -40vw; z-index: -5;}
+    25%{scale: 0.2;}
+    50%{left: 120vw; z-index: -5; scale: 1;}
+    51%{left: 120vw; z-index: 5;}
+    75%{scale: 3;}
+    100%{left: -40vw; z-index: 5;}
+}
