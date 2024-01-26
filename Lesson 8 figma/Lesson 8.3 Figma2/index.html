@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="headertop">
+                <a href="tel: 123456789" id="call">Call - 123 456 789</a>
+                <a href="index.html"><img src="./ASSETS/logo.png" alt="logo" id="logo"></a>
+                <a href="#" id="reserve">Reservation</a>
+            </div>
+        </div>
+
+        <div class="headerbottom">
+            <div class="container">
+                <nav>
+                    <div class="leftnav">
+                        <a href="index.html" id="ahome">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Our Menu</a>
+                        <a href="#">Pages</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+        
+                    <div class="rightnav">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+
+                    </div>
+                
+
+
+
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <div class="mobileheader">
+        <div class="container">
+        <div class="mobilenav">
+            <a href="index.html"><img src="./ASSETS/logo.png" alt="logo" id="logo"></a>
+            <div class="bars">
+                <i class="fa-solid fa-bars" id="bars"></i>
+            </div>
+        </div>
+
+        <div class="showhidearea" id="showhide">
+
+            <div class="leftmobilenav">
+                <a href="index.html" id="ahome">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Our Menu</a>
+            <a href="#">Pages</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="rightmobilenav">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <div class="headertop">
+            <a href="tel: 123456789" id="call">Call - 123 456 789</a>
+            <a href="#" id="reserve">Reservation</a>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+<script>
+    const bars = document.getElementById('bars')
+    const showhide = document.getElementById('showhide')
+    bars.onclick = function(){
+        showhide.classList.toggle('show')
+    }
+</script>
+</body>
+
+
+
+
+
+
+</html>

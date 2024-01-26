@@ -1,0 +1,175 @@
+:root{--primary: #40464F}
+:root{--secondary: #E1B168}
+
+@font-face {
+    font-family: josefin;
+    src: url(./ASSETS/JosefinSans-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: josefin, sans-serif;
+}
+.container{
+    max-width: 90%;
+    margin: 0px auto;
+}
+header{
+    background-color: var(--primary);
+}
+.headertop{
+    display: flex;
+    background-color: var(--primary);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#call, #reserve {
+    border: 2px solid var(--secondary);
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reserve {
+    background-color: var(--secondary) ;
+    color: #292E36;
+    transition: 0.5s;
+
+}
+
+#call{
+    color: white;
+    transition: 0.5s;
+}
+
+#logo{
+    scale: 0.7;
+}
+
+#call:hover{
+    background-color: var(--secondary);
+}
+#reserve:hover{
+    background-color: var(--primary);
+    color: white;
+}
+
+nav{
+    background-color: var(--primary);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.leftnav a{
+    padding-right: 20px;
+    color: white;
+}
+
+.headerbottom{
+    border-top: #5C6168 solid 1px;
+}
+
+#ahome{
+    color: var(--secondary);
+}
+
+.rightnav{
+    width: 100px;
+    height: 60px;
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.mobileheader{
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    height: 800px;
+
+}
+
+.mobilenav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#bars{
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+
+@media(max-width:720px){
+    header{display: none;}
+    .mobileheader{ display: flex;}
+}
+@media(min-width:720px){
+    header{display:block ;}
+    .mobileheader{display: none;}
+    .mobilenav{display: none;}
+}
+
+.leftmobilenav{
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.leftmobilenav a{
+color: white;
+font-size: 22px;
+margin-bottom: 10px;
+
+
+}
+
+.rightmobilenav{
+    color: white;
+    background-color: var(--primary);
+    font-size: 22px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.rightmobilenav i{
+    margin-right: 8px;
+    margin-left: 8px;
+
+
+}
+.mobilenav .leftnav a{
+    padding-right: 0px;
+    color: white;
+}
+
+.mobileheader .headertop{
+    flex-direction: column;
+}
+
+.show{
+    display: none;
+}
+
+.mobileheader .headertop a{
+    margin-bottom: 10px;
+}
