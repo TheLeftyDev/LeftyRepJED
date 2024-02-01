@@ -173,3 +173,41 @@ margin-bottom: 10px;
 .mobileheader .headertop a{
     margin-bottom: 10px;
 }
+
+
+body{
+    background-color: var(--primary);
+
+}
+.welcome{
+    display: flex;
+}
+
+.rightwelcome{
+    width: 40vw;
+
+
+}
+
+.rightwelcome img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 48%;
+    border-top-right-radius: 48%;
+    object-fit: contain;
+}
+
+.leftwelcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.leftwelcome h1{
+    font-size: 75px;
+}
+
+.leftwelcome p{
+    font-size: 20px;
+    width: 50ch;
+}
